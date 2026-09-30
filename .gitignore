@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.partial
+*.tmp
+
+# Logs
+*.log
+
+# Local experiment data and outputs
+/data/
+/embeddings/
+/results/
+/example/results/
